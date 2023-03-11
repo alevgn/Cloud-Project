@@ -7,7 +7,7 @@ Feature: Default
     Given User is already logged into the Ceallo
 
 
-  Scenario: US102AC1TC1 - Verify users to access to Talks module -OFG
+  Scenario: US102AC1TC1 - Verify users to access to Photos module
     Given user on the dashboard page
-    When the user clicks the "Talk" module
+    When the user clicks the Photos module
     Then verify the page title is "Photos - Ceallo - QA"
